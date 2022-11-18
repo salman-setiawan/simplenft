@@ -24,7 +24,6 @@ const Mint = ({ accounts, setAccounts }) => {
         console.log("response: ", response);
       } catch (err) {
         console.log("error: ", err);
-        document.getElementById('#debugDiv').append('<p>' + err + '</p>');
       }
 
     }
